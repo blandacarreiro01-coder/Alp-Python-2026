@@ -4,7 +4,7 @@ menor_nome = ""
 menor_preco = 0
 soma = 0 
 for contador in range(1,6):
-    print(f"------Medicamento {contador}")
+    print(f"------Medicamento {contador}------")
     nome = input("Nome: ")
     preco = float(input("Preço: R$ "))
 
@@ -15,7 +15,7 @@ for contador in range(1,6):
         menor_nome = nome
 
 media = soma / 5 
-print("\n========= RESULTADO =========")
+print("========= RESULTADO =========")
 print(f"Medicamento mais barato: {menor_nome}")
 print(f"Preço: R$ {menor_preco:.2f}")
 print(f"Média dos preços: R$ {media:.2f}")
